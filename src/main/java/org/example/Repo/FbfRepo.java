@@ -1,0 +1,12 @@
+package org.example.Repo;
+
+import org.example.Entity.FBFReport;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface FbfRepo extends JpaRepository<FBFReport, Long> {
+    List<FBFReport> findByEmployeeId(String employeeId);
+}

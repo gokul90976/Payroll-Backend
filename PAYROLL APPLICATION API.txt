@@ -1,0 +1,1298 @@
+                              PAYROLL APPLICATION
+           EMPLOYEE PAYROLL
+
+POST---------- /saveEmployeePayRoll
+
+HEADER ------ localhost:8080/saveEmployeePayRoll
+
+PAYLOAD ------ 
+
+{
+    "employeeId": "1",
+    "employeeName": "John Doe",
+    "officeCode": "OC123",
+    "officeName": "Office of Example",
+    "designationCode": "DC456",
+    "designationName": "Designation 1",
+    "panNo": "PAN000001",
+    "aadharNo": "123456789012",
+    "mobileNo": "1234567890",
+    "emailId": "john.doe@example.com",
+    "differentlyAbled": "No",
+    "dateOfJoiningService": "2022-01-01",
+    "levelAsPerPayMatrix": "Level 2",
+    "basicPay": 50000,
+    "levelAsPerCellMatrix": "Cell A",
+    "scaleOfPay": "Pay Scale 1",
+    "incrementDueDate": "2022-07-01",
+    "dateOfRetirement": "2040-12-31",
+    "transferOfficeCode": "TOC789",
+    "transferOfficeName": "Transfer Office 1",
+    "dateOfJoiningTransfer": "2023-01-01",
+    "conveyanceAllowance": 5000,
+    "rent": 15000,
+    "concessionalValue": "No",
+    "notionalValue": "Not Applicable",
+    "bankName": "Bank of Example",
+    "bankBranchName": "Branch of Example",
+    "bankAcNo": "12345678901234",
+    "bankIFSC": "BANK00123",
+    "payStatus": "Paid",
+    "pfcps": "PF",
+    "hraGrade": 2,
+    "ccaGrade": 3,
+    "pfPercentage": 10,
+    "cpsPercentage": 8,
+    "basicPayEarning": 50000,
+    "personalPay": 10000,
+    "specialPay": 20000,
+    "da": 20000,
+    "hra": 10000,
+    "hrr": 5000,
+    "cca": 7000,
+    "medicalAllowance": 3000,
+    "fta": 2000,
+    "hillAllowance": 2000,
+    "winterAllowance": 1000,
+    "washingAllowance": 500,
+    "conveyanceAllowanceEarnings": 5000,
+    "cashAllowance": 2000,
+    "interimRelief": 1000,
+    "misc1": 2000,
+    "totalEarning": 152000,
+    "gpfSub": 15000,
+    "vpf": 5000,
+    "cps": 4000,
+    "fbf": 3000,
+    "nhis": 2000,
+    "specialPf": 500,
+    "hba": 15000,
+    "hbf": 5000,
+    "cadap": 2000,
+    "rentDeductions": 15000,
+    "waterCharges": 1000,
+    "professionalTax": 500,
+    "oneDayRecovery": 2500,
+    "incomeTax": 20000,
+    "incomeTaxCess": 2000,
+    "eoe": 1000,
+    "gpfLoan": 15000,
+    "gpfArrear": 5000,
+    "cpsArrear": 4000,
+    "festivalAdvance": 2000,
+    "conveyanceAdvance": 3000,
+    "educationAdvance": 2500,
+    "marriageAdvance": 2000,
+    "payAdvance": 1500,
+    "miscDeduction1": 1000,
+    "totalDeductions": 94000,
+    "netPay": 58000,
+    "nid": 1
+}
+
+RESPONSE ----
+
+{
+    "result": true,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": {
+        "employeeId": "1",
+        "employeeName": "John Doe",
+        "officeCode": "OC123",
+        "officeName": "Office of Example",
+        "designationCode": "DC456",
+        "designationName": "Designation 1",
+        "panNo": "PAN000001",
+        "aadharNo": "123456789012",
+        "mobileNo": 1234567890,
+        "emailId": "john.doe@example.com",
+        "differentlyAbled": "No",
+        "dateOfJoiningService": "2022-01-01",
+        "levelAsPerPayMatrix": "Level 2",
+        "basicPay": 50000,
+        "levelAsPerCellMatrix": "Cell A",
+        "scaleOfPay": "Pay Scale 1",
+        "incrementDueDate": "2022-07-01",
+        "dateOfRetirement": "2040-12-31",
+        "transferOfficeCode": "TOC789",
+        "transferOfficeName": "Transfer Office 1",
+        "dateOfJoiningTransfer": "2023-01-01",
+        "conveyanceAllowance": 5000,
+        "rent": 15000,
+        "concessionalValue": "No",
+        "notionalValue": "Not Applicable",
+        "bankName": "Bank of Example",
+        "bankBranchName": "Branch of Example",
+        "bankAcNo": "12345678901234",
+        "bankIFSC": "BANK00123",
+        "payStatus": "Paid",
+        "pfcps": "PF",
+        "hraGrade": 2,
+        "ccaGrade": 3,
+        "pfPercentage": 10,
+        "cpsPercentage": 8,
+        "basicPayEarning": 50000,
+        "personalPay": 10000,
+        "specialPay": 20000,
+        "da": 20000,
+        "hra": 10000,
+        "hrr": 5000,
+        "cca": 7000,
+        "medicalAllowance": 3000,
+        "fta": 2000,
+        "hillAllowance": 2000,
+        "winterAllowance": 1000,
+        "washingAllowance": 500,
+        "conveyanceAllowanceEarnings": 5000,
+        "cashAllowance": 2000,
+        "interimRelief": 1000,
+        "misc1": 2000,
+        "totalEarning": 152000,
+        "gpfSub": 15000,
+        "vpf": 5000,
+        "cps": 4000,
+        "fbf": 3000,
+        "nhis": 2000,
+        "specialPf": 500,
+        "hba": 15000,
+        "hbf": 5000,
+        "cadap": 2000,
+        "rentDeductions": 15000,
+        "waterCharges": 1000,
+        "professionalTax": 500,
+        "oneDayRecovery": 2500,
+        "incomeTax": 20000,
+        "incomeTaxCess": 2000,
+        "eoe": 1000,
+        "gpfLoan": 15000,
+        "gpfArrear": 5000,
+        "cpsArrear": 4000,
+        "festivalAdvance": 2000,
+        "conveyanceAdvance": 3000,
+        "educationAdvance": 2500,
+        "marriageAdvance": 2000,
+        "payAdvance": 1500,
+        "miscDeduction1": 1000,
+        "totalDeductions": 94000,
+        "netPay": 58000,
+        "nid": 1
+    },
+    "status": 1
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+POST ------- /getEmployeePayRollByEmployeeId
+
+HEADER ----- localhost:8080/getEmployeePayRollByEmployeeId
+
+PAYLOAD ----- 
+
+{
+    "employeeId":1
+}
+
+RESPONSE ------
+
+{
+    "result": true,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": {
+        "employeeId": "1",
+        "employeeName": "John Doe",
+        "officeCode": "OC123",
+        "officeName": "Office of Example",
+        "designationCode": "DC456",
+        "designationName": "Designation 1",
+        "panNo": "PAN000001",
+        "aadharNo": "123456789012",
+        "mobileNo": 1234567890,
+        "emailId": "john.doe@example.com",
+        "differentlyAbled": "No",
+        "dateOfJoiningService": "2022-01-01",
+        "levelAsPerPayMatrix": "Level 2",
+        "basicPay": 50000,
+        "levelAsPerCellMatrix": "Cell A",
+        "scaleOfPay": "Pay Scale 1",
+        "incrementDueDate": "2022-07-01",
+        "dateOfRetirement": "2040-12-31",
+        "transferOfficeCode": "TOC789",
+        "transferOfficeName": "Transfer Office 1",
+        "dateOfJoiningTransfer": "2023-01-01",
+        "conveyanceAllowance": 5000,
+        "rent": 15000,
+        "concessionalValue": "No",
+        "notionalValue": "Not Applicable",
+        "bankName": "Bank of Example",
+        "bankBranchName": "Branch of Example",
+        "bankAcNo": "12345678901234",
+        "bankIFSC": "BANK00123",
+        "payStatus": "Paid",
+        "pfcps": "PF",
+        "hraGrade": 2,
+        "ccaGrade": 3,
+        "pfPercentage": 10,
+        "cpsPercentage": 8,
+        "basicPayEarning": 50000,
+        "personalPay": 10000,
+        "specialPay": 20000,
+        "da": 20000,
+        "hra": 10000,
+        "hrr": 5000,
+        "cca": 7000,
+        "medicalAllowance": 3000,
+        "fta": 2000,
+        "hillAllowance": 2000,
+        "winterAllowance": 1000,
+        "washingAllowance": 500,
+        "conveyanceAllowanceEarnings": 5000,
+        "cashAllowance": 2000,
+        "interimRelief": 1000,
+        "misc1": 2000,
+        "totalEarning": 152000,
+        "gpfSub": 15000,
+        "vpf": 5000,
+        "cps": 4000,
+        "fbf": 3000,
+        "nhis": 2000,
+        "specialPf": 500,
+        "hba": 15000,
+        "hbf": 5000,
+        "cadap": 2000,
+        "rentDeductions": 15000,
+        "waterCharges": 1000,
+        "professionalTax": 500,
+        "oneDayRecovery": 2500,
+        "incomeTax": 20000,
+        "incomeTaxCess": 2000,
+        "eoe": 1000,
+        "gpfLoan": 15000,
+        "gpfArrear": 5000,
+        "cpsArrear": 4000,
+        "festivalAdvance": 2000,
+        "conveyanceAdvance": 3000,
+        "educationAdvance": 2500,
+        "marriageAdvance": 2000,
+        "payAdvance": 1500,
+        "miscDeduction1": 1000,
+        "totalDeductions": 94000,
+        "netPay": 58000,
+        "nid": 1
+    },
+    "status": 1
+}
+
+----------------------------------------------------------------------------------------------------------
+
+POST --------- /getEmployeePayRollBynId
+
+HEADER ------- localhost:8080/getEmployeePayRollBynId
+
+PAYLOAD ------
+
+{
+    "nId":1
+}
+
+RESPONSE ---- 
+
+{
+    "result": true,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": {
+        "employeeId": "1",
+        "employeeName": "John Doe",
+        "officeCode": "OC123",
+        "officeName": "Office of Example",
+        "designationCode": "DC456",
+        "designationName": "Designation 1",
+        "panNo": "PAN000001",
+        "aadharNo": "123456789012",
+        "mobileNo": 1234567890,
+        "emailId": "john.doe@example.com",
+        "differentlyAbled": "No",
+        "dateOfJoiningService": "2022-01-01",
+        "levelAsPerPayMatrix": "Level 2",
+        "basicPay": 50000,
+        "levelAsPerCellMatrix": "Cell A",
+        "scaleOfPay": "Pay Scale 1",
+        "incrementDueDate": "2022-07-01",
+        "dateOfRetirement": "2040-12-31",
+        "transferOfficeCode": "TOC789",
+        "transferOfficeName": "Transfer Office 1",
+        "dateOfJoiningTransfer": "2023-01-01",
+        "conveyanceAllowance": 5000,
+        "rent": 15000,
+        "concessionalValue": "No",
+        "notionalValue": "Not Applicable",
+        "bankName": "Bank of Example",
+        "bankBranchName": "Branch of Example",
+        "bankAcNo": "12345678901234",
+        "bankIFSC": "BANK00123",
+        "payStatus": "Paid",
+        "pfcps": "PF",
+        "hraGrade": 2,
+        "ccaGrade": 3,
+        "pfPercentage": 10,
+        "cpsPercentage": 8,
+        "basicPayEarning": 50000,
+        "personalPay": 10000,
+        "specialPay": 20000,
+        "da": 20000,
+        "hra": 10000,
+        "hrr": 5000,
+        "cca": 7000,
+        "medicalAllowance": 3000,
+        "fta": 2000,
+        "hillAllowance": 2000,
+        "winterAllowance": 1000,
+        "washingAllowance": 500,
+        "conveyanceAllowanceEarnings": 5000,
+        "cashAllowance": 2000,
+        "interimRelief": 1000,
+        "misc1": 2000,
+        "totalEarning": 152000,
+        "gpfSub": 15000,
+        "vpf": 5000,
+        "cps": 4000,
+        "fbf": 3000,
+        "nhis": 2000,
+        "specialPf": 500,
+        "hba": 15000,
+        "hbf": 5000,
+        "cadap": 2000,
+        "rentDeductions": 15000,
+        "waterCharges": 1000,
+        "professionalTax": 500,
+        "oneDayRecovery": 2500,
+        "incomeTax": 20000,
+        "incomeTaxCess": 2000,
+        "eoe": 1000,
+        "gpfLoan": 15000,
+        "gpfArrear": 5000,
+        "cpsArrear": 4000,
+        "festivalAdvance": 2000,
+        "conveyanceAdvance": 3000,
+        "educationAdvance": 2500,
+        "marriageAdvance": 2000,
+        "payAdvance": 1500,
+        "miscDeduction1": 1000,
+        "totalDeductions": 94000,
+        "netPay": 58000,
+        "nid": 1
+    },
+    "status": 1
+}
+
+------------------------------------------------------------------------------------------------------------
+
+POST ----- /getAllEmployeePayRoll
+
+HEADER ----- localhost:8080/getAllEmployeePayRoll
+
+PAYLOAD ---- 
+
+{
+    "id":1
+}
+
+RESPONSE -----
+
+{
+    "result": true,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": [
+        {
+            "employeeId": "1",
+            "employeeName": "John Doe",
+            "officeCode": "OC123",
+            "officeName": "Office of Example",
+            "designationCode": "DC456",
+            "designationName": "Designation 1",
+            "panNo": "PAN000001",
+            "aadharNo": "123456789012",
+            "mobileNo": 1234567890,
+            "emailId": "john.doe@example.com",
+            "differentlyAbled": "No",
+            "dateOfJoiningService": "2022-01-01",
+            "levelAsPerPayMatrix": "Level 2",
+            "basicPay": 50000,
+            "levelAsPerCellMatrix": "Cell A",
+            "scaleOfPay": "Pay Scale 1",
+            "incrementDueDate": "2022-07-01",
+            "dateOfRetirement": "2040-12-31",
+            "transferOfficeCode": "TOC789",
+            "transferOfficeName": "Transfer Office 1",
+            "dateOfJoiningTransfer": "2023-01-01",
+            "conveyanceAllowance": 5000,
+            "rent": 15000,
+            "concessionalValue": "No",
+            "notionalValue": "Not Applicable",
+            "bankName": "Bank of Example",
+            "bankBranchName": "Branch of Example",
+            "bankAcNo": "12345678901234",
+            "bankIFSC": "BANK00123",
+            "payStatus": "Paid",
+            "pfcps": "PF",
+            "hraGrade": 2,
+            "ccaGrade": 3,
+            "pfPercentage": 10,
+            "cpsPercentage": 8,
+            "basicPayEarning": 50000,
+            "personalPay": 10000,
+            "specialPay": 20000,
+            "da": 20000,
+            "hra": 10000,
+            "hrr": 5000,
+            "cca": 7000,
+            "medicalAllowance": 3000,
+            "fta": 2000,
+            "hillAllowance": 2000,
+            "winterAllowance": 1000,
+            "washingAllowance": 500,
+            "conveyanceAllowanceEarnings": 5000,
+            "cashAllowance": 2000,
+            "interimRelief": 1000,
+            "misc1": 2000,
+            "totalEarning": 152000,
+            "gpfSub": 15000,
+            "vpf": 5000,
+            "cps": 4000,
+            "fbf": 3000,
+            "nhis": 2000,
+            "specialPf": 500,
+            "hba": 15000,
+            "hbf": 5000,
+            "cadap": 2000,
+            "rentDeductions": 15000,
+            "waterCharges": 1000,
+            "professionalTax": 500,
+            "oneDayRecovery": 2500,
+            "incomeTax": 20000,
+            "incomeTaxCess": 2000,
+            "eoe": 1000,
+            "gpfLoan": 15000,
+            "gpfArrear": 5000,
+            "cpsArrear": 4000,
+            "festivalAdvance": 2000,
+            "conveyanceAdvance": 3000,
+            "educationAdvance": 2500,
+            "marriageAdvance": 2000,
+            "payAdvance": 1500,
+            "miscDeduction1": 1000,
+            "totalDeductions": 94000,
+            "netPay": 58000,
+            "nid": 1
+        },
+        {
+            "employeeId": "2",
+            "employeeName": "John Doe",
+            "officeCode": "OC123",
+            "officeName": "Office of Example",
+            "designationCode": "DC456",
+            "designationName": "Designation 1",
+            "panNo": "PAN000001",
+            "aadharNo": "123456789012",
+            "mobileNo": 1234567890,
+            "emailId": "john.doe@example.com",
+            "differentlyAbled": "No",
+            "dateOfJoiningService": "2022-01-01",
+            "levelAsPerPayMatrix": "Level 2",
+            "basicPay": 50000,
+            "levelAsPerCellMatrix": "Cell A",
+            "scaleOfPay": "Pay Scale 1",
+            "incrementDueDate": "2022-07-01",
+            "dateOfRetirement": "2040-12-31",
+            "transferOfficeCode": "TOC789",
+            "transferOfficeName": "Transfer Office 1",
+            "dateOfJoiningTransfer": "2023-01-01",
+            "conveyanceAllowance": 5000,
+            "rent": 15000,
+            "concessionalValue": "No",
+            "notionalValue": "Not Applicable",
+            "bankName": "Bank of Example",
+            "bankBranchName": "Branch of Example",
+            "bankAcNo": "12345678901234",
+            "bankIFSC": "BANK00123",
+            "payStatus": "Paid",
+            "pfcps": "PF",
+            "hraGrade": 2,
+            "ccaGrade": 3,
+            "pfPercentage": 10,
+            "cpsPercentage": 8,
+            "basicPayEarning": 50000,
+            "personalPay": 10000,
+            "specialPay": 20000,
+            "da": 20000,
+            "hra": 10000,
+            "hrr": 5000,
+            "cca": 7000,
+            "medicalAllowance": 3000,
+            "fta": 2000,
+            "hillAllowance": 2000,
+            "winterAllowance": 1000,
+            "washingAllowance": 500,
+            "conveyanceAllowanceEarnings": 5000,
+            "cashAllowance": 2000,
+            "interimRelief": 1000,
+            "misc1": 2000,
+            "totalEarning": 152000,
+            "gpfSub": 15000,
+            "vpf": 5000,
+            "cps": 4000,
+            "fbf": 3000,
+            "nhis": 2000,
+            "specialPf": 500,
+            "hba": 15000,
+            "hbf": 5000,
+            "cadap": 2000,
+            "rentDeductions": 15000,
+            "waterCharges": 1000,
+            "professionalTax": 500,
+            "oneDayRecovery": 2500,
+            "incomeTax": 20000,
+            "incomeTaxCess": 2000,
+            "eoe": 1000,
+            "gpfLoan": 15000,
+            "gpfArrear": 5000,
+            "cpsArrear": 4000,
+            "festivalAdvance": 2000,
+            "conveyanceAdvance": 3000,
+            "educationAdvance": 2500,
+            "marriageAdvance": 2000,
+            "payAdvance": 1500,
+            "miscDeduction1": 1000,
+            "totalDeductions": 94000,
+            "netPay": 58000,
+            "nid": 2
+        }
+    ],
+    "status": 1
+}
+
+----------------------------------------------------------------------------------------------------------
+
+POST ---- /deleteEmployeePayRollBynId
+
+HEADER ----- localhost:8080/deleteEmployeePayRollBynId
+
+PAYLOAD -----
+
+{
+    "id": 1
+}
+
+RESPONSE -----
+
+{
+    "result": true,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": null,
+    "status": 1
+}
+
+its delete data
+
+----------------------------------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------------------
+                  RECOVERY DATA , RECOVERY DATA ADD
+
+
+POST ----- /getAllRecoveryData
+
+HEADER ---- localhost:9090/api/getAllRecoveryData
+
+PAYLOAD -----
+
+{
+    "id":1
+}
+
+RESPONSE ------ 
+
+{
+    "result": false,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": {
+        "employeePayRoll": null,
+        "recoveryData": [
+            {
+                "id": 5,
+                "employeeId": "80",
+                "employeeName": "Suresh",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": null,
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            },
+            {
+                "id": 6,
+                "employeeId": "45",
+                "employeeName": "megesh",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": null,
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            },
+            {
+                "id": 7,
+                "employeeId": "5",
+                "employeeName": "Dinesh",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": "bocxy",
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            },
+            {
+                "id": 8,
+                "employeeId": "8",
+                "employeeName": "mathesh",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": "bocxy",
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            },
+            {
+                "id": 9,
+                "employeeId": "9",
+                "employeeName": "null",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": "bocxy",
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            },
+            {
+                "id": 10,
+                "employeeId": "10",
+                "employeeName": "level",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": "bocxy",
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            },
+            {
+                "id": 11,
+                "employeeId": "11",
+                "employeeName": "save",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": "bocxy",
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            },
+            {
+                "id": 12,
+                "employeeId": "12",
+                "employeeName": "save",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": "bocxy",
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            }
+        ],
+        "recoveryDataAdd": [
+            {
+                "id": 5,
+                "recovery": "yes",
+                "accountingCode": null,
+                "documentNumber": null,
+                "totalAmount": 500000,
+                "totalNoOfInstalment": null,
+                "monthlyRecoveryAmount": null,
+                "commencement": null,
+                "mid": 5
+            },
+            {
+                "id": 6,
+                "recovery": "yes",
+                "accountingCode": null,
+                "documentNumber": null,
+                "totalAmount": 500000,
+                "totalNoOfInstalment": null,
+                "monthlyRecoveryAmount": 20000,
+                "commencement": null,
+                "mid": 6
+            },
+            {
+                "id": 7,
+                "recovery": "no",
+                "accountingCode": null,
+                "documentNumber": null,
+                "totalAmount": 54526,
+                "totalNoOfInstalment": null,
+                "monthlyRecoveryAmount": 4685,
+                "commencement": "1971-04-01",
+                "mid": 7
+            },
+            {
+                "id": 8,
+                "recovery": "yes",
+                "accountingCode": "kjsadbc",
+                "documentNumber": "8786",
+                "totalAmount": 500000,
+                "totalNoOfInstalment": 45452,
+                "monthlyRecoveryAmount": 20000,
+                "commencement": "1981-12-09",
+                "mid": 8
+            },
+            {
+                "id": 9,
+                "recovery": "no",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 9
+            },
+            {
+                "id": 10,
+                "recovery": "no",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 10
+            },
+            {
+                "id": 11,
+                "recovery": "yes",
+                "accountingCode": "45789658",
+                "documentNumber": "6455",
+                "totalAmount": 254000,
+                "totalNoOfInstalment": 450,
+                "monthlyRecoveryAmount": 8590,
+                "commencement": "1990-02-18",
+                "mid": 11
+            },
+            {
+                "id": 12,
+                "recovery": "no",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 11
+            },
+            {
+                "id": 13,
+                "recovery": "yes",
+                "accountingCode": "45789658",
+                "documentNumber": "6455",
+                "totalAmount": 254000,
+                "totalNoOfInstalment": 450,
+                "monthlyRecoveryAmount": 8590,
+                "commencement": "1990-02-18",
+                "mid": 12
+            },
+            {
+                "id": 14,
+                "recovery": "no",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 12
+            },
+            {
+                "id": 15,
+                "recovery": "saho",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 12
+            },
+            {
+                "id": 16,
+                "recovery": "bills",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 12
+            }
+        ]
+    },
+    "status": 1
+}
+
+------------------------------------------------------------------------------------------------------
+
+POST ------ /getRecoveryDataById
+
+HEADER ----- localhost:8080/api/getRecoveryDataById
+
+PAYLOAD ----
+
+{
+    "nid": 12
+}
+
+RESPONSE ------
+
+{
+    "result": false,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": {
+        "employeePayRoll": null,
+        "recoveryData": [
+            {
+                "id": 12,
+                "employeeId": "12",
+                "employeeName": "save",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": "bocxy",
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            }
+        ],
+        "recoveryDataAdd": [
+            {
+                "id": 13,
+                "recovery": "yes",
+                "accountingCode": "45789658",
+                "documentNumber": "6455",
+                "totalAmount": 254000,
+                "totalNoOfInstalment": 450,
+                "monthlyRecoveryAmount": 8590,
+                "commencement": "1990-02-18",
+                "mid": 12
+            },
+            {
+                "id": 14,
+                "recovery": "no",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 12
+            },
+            {
+                "id": 15,
+                "recovery": "saho",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 12
+            },
+            {
+                "id": 16,
+                "recovery": "bills",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 12
+            }
+        ]
+    },
+    "status": 1
+}
+
+------------------------------------------------------------------------------------------------------------
+
+POST ----- /saveRecoveryDataAndAdd
+
+HEADER ---- localhost:8080/api/saveRecoveryDataAndAdd
+
+PAYLOAD ----
+
+{
+    "employeePayRoll": null,
+        "recoveryData": [
+            {
+                "employeeId": 13,
+                "employeeName": "name",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": "bocxy",
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            }
+        ],
+        "recoveryDataAdd": [
+            {
+                
+                "recovery": "yes",
+                "accountingCode": "45789658",
+                "documentNumber": "6455",
+                "totalAmount": 254000,
+                "totalNoOfInstalment": 450,
+                "monthlyRecoveryAmount": 8590,
+                "commencement": "1990-02-18"
+                
+            },
+            {
+                
+                "recovery": "no",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22"
+                
+            },
+            {
+                
+                "recovery": "saho",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22"
+                
+            },
+            {
+                
+                "recovery": "bills",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22"
+                
+            },
+            {
+                
+                "recovery": "bills",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22"
+                
+            }
+        ]
+    
+}
+
+RESPONSE ------
+
+{
+    "result": false,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": {
+        "employeePayRoll": null,
+        "recoveryData": [
+            {
+                "id": 13,
+                "employeeId": "13",
+                "employeeName": "name",
+                "cadreCode": null,
+                "cadreName": null,
+                "officeCode": null,
+                "officeName": "bocxy",
+                "dateOfBirth": null,
+                "dateOfJoining": null,
+                "bp": null
+            }
+        ],
+        "recoveryDataAdd": [
+            {
+                "id": 17,
+                "recovery": "yes",
+                "accountingCode": "45789658",
+                "documentNumber": "6455",
+                "totalAmount": 254000,
+                "totalNoOfInstalment": 450,
+                "monthlyRecoveryAmount": 8590,
+                "commencement": "1990-02-18",
+                "mid": 13
+            },
+            {
+                "id": 18,
+                "recovery": "no",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 13
+            },
+            {
+                "id": 19,
+                "recovery": "saho",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 13
+            },
+            {
+                "id": 20,
+                "recovery": "bills",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 13
+            },
+            {
+                "id": 21,
+                "recovery": "bills",
+                "accountingCode": "14651",
+                "documentNumber": "1651",
+                "totalAmount": 51512,
+                "totalNoOfInstalment": 54,
+                "monthlyRecoveryAmount": 645,
+                "commencement": "1999-09-22",
+                "mid": 13
+            }
+        ]
+    },
+    "status": 1
+}
+
+-----------------------------------------------------------------------------------------------------------
+
+POST ----- /deleteRecoveryDataAndAddById
+
+HEADER --- localhost:8080/api/deleteRecoveryDataAndAddById
+
+PAYLOAD ----
+
+{
+    "id":5
+}
+
+RESPONSE -----
+
+its two table for id and mid datas deleted
+
+------------------------------------------------------------------------------------------------------------
+                     TAX CALCULATION
+
+POST ----- /saveTaxCalculation
+
+HEADER ----- localhost:8080/api/saveTaxCalculation
+
+PAYLOAD -----
+
+{
+
+            "professionalFrom": 45557,
+            "professionalTo": 45765235,
+            "professionalValues": 4,
+            "incomeTaxFrom": 4584545,
+            "incomeTaxTo": 456,
+            "incomeTaxValues": 5562,
+            "davalues": 461512,
+            "dafrom": null,
+            "dato": null
+}
+
+RESPONSE -------
+
+{
+    "result": false,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": {
+        "id": 4,
+        "professionalFrom": 45557,
+        "professionalTo": 45765235,
+        "professionalValues": 4,
+        "incomeTaxFrom": 4584545,
+        "incomeTaxTo": 456,
+        "incomeTaxValues": 5562,
+        "davalues": 461512,
+        "dafrom": null,
+        "dato": null
+    },
+    "status": 1
+}
+
+----------------------------------------------------------------------------------------------------------------
+
+POST ------- /getAllTaxCalculation
+
+HEADER ------ localhost:8080/api/getAllTaxCalculation
+
+PAYLOAD ------
+{
+    "id":1
+}
+
+RESPONSE ------
+
+{
+    "result": false,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": [
+        {
+            "id": 2,
+            "professionalFrom": 45557,
+            "professionalTo": 45765235,
+            "professionalValues": 4,
+            "incomeTaxFrom": 4584545,
+            "incomeTaxTo": 456,
+            "incomeTaxValues": 5562,
+            "davalues": 461512,
+            "dafrom": null,
+            "dato": null
+        },
+        {
+            "id": 3,
+            "professionalFrom": 45557,
+            "professionalTo": 45765235,
+            "professionalValues": 4,
+            "incomeTaxFrom": 4584545,
+            "incomeTaxTo": 456,
+            "incomeTaxValues": 5562,
+            "davalues": 461512,
+            "dafrom": null,
+            "dato": null
+        },
+        {
+            "id": 4,
+            "professionalFrom": 45557,
+            "professionalTo": 45765235,
+            "professionalValues": 4,
+            "incomeTaxFrom": 4584545,
+            "incomeTaxTo": 456,
+            "incomeTaxValues": 5562,
+            "davalues": 461512,
+            "dafrom": null,
+            "dato": null
+        }
+    ],
+    "status": 1
+}
+------------------------------------------------------------------------------------------------------------
+
+POST ------- /getTaxCalculationById
+
+HEADER ----- localhost:8080/api/getTaxCalculationById
+
+PAYLOAD -----
+
+{
+    "id":2
+}
+
+RESPONSE -----
+
+{
+    "result": false,
+    "token": null,
+    "newUser": null,
+    "message": "Success",
+    "data": {
+        "id": 2,
+        "professionalFrom": 45557,
+        "professionalTo": 45765235,
+        "professionalValues": 4,
+        "incomeTaxFrom": 4584545,
+        "incomeTaxTo": 456,
+        "incomeTaxValues": 5562,
+        "davalues": 461512,
+        "dafrom": null,
+        "dato": null
+    },
+    "status": 1
+}
+
+------------------------------------------------------------------------------------------------------------
+
+POST ----/deleteTaxCalculationById
+
+HEADER ----- localhost:8080/api/deleteTaxCalculationById
+
+PAYLOAD ----
+{
+    "id":4
+}
+
+RESPONSE ----
+
+{
+    "result": false,
+    "token": null,
+    "newUser": null,
+    "message": "No Data Found",
+    "data": null,
+    "status": 0
+}
+
+---------------------------------------------------------------------------------------------------------------
+
+
+
